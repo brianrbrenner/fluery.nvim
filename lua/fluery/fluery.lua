@@ -11,7 +11,7 @@ local function set_hightlights()
 end
 
 function M.colorscheme()
-  vim.opt_termguicolors = true,
+  vim.opt_termguicolors = true
   if vim.g.colors_name then
    vim.cmd("hi clear")
    vim.cmd("syntax reset")
