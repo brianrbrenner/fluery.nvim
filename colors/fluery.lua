@@ -1,1 +1,1 @@
-require("fluery").colorsscheme()
+require("fluery").colorscheme()
