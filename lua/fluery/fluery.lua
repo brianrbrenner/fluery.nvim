@@ -12,10 +12,10 @@ end
 
 function M.colorscheme()
   vim.opt_termguicolors = true,
-  if vim.g.colors_name then
-    vim.cmd("hi clear")
-    vim.cmd("syntax reset")
-  end
+  --if vim.g.colors_name then
+  --  vim.cmd("hi clear")
+  --  vim.cmd("syntax reset")
+  -- end
   vim.g.colors_name = "fluery"
 
   set_hightlights()
