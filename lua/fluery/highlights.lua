@@ -27,7 +27,7 @@ function M.get_highlight_groups()
 
 	local highlight_groups = {
 		base = {
-			Normal = { fg = palette.light_brown, bg = palette.bg },
+			Normal = { fg = palette.muted, bg = palette.bg },
 			Comment = { fg = palette.comment },
 		},
 		syntax_groups = {
