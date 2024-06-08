@@ -40,7 +40,7 @@ function M.get_highlight_groups()
 			Boolean = { link = "String" },
 			Float = { link = "String" },
 
-			Identifier = { fg = palette.light_brown },
+			Identifier = { fg = "#de8150" },
 			Function = { fg = palette.light_red },
 
 			Statement = { fg = palette.pale_orange },
