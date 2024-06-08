@@ -244,7 +244,7 @@ function M.get_highlight_groups()
 			DiagnosticWarn = { fg = palette.orange },
 			DiagnosticUnderlineError = { sp = palette.red, undercurl = true },
 			DiagnosticUnderlineHint = { sp = palette.yellow, undercurl = true },
-			DiagnosticUnderlineInfo = { sp = palette.blue, undercurl = true },
+			DiagnosticUnderlineInfo = { sp = palette.pale_blue, undercurl = true },
 			DiagnosticUnderlineOk = { sp = palette.green, undercurl = true },
 			DiagnosticUnderlineWarn = { sp = palette.orange, undercurl = true },
 			DiagnosticVirtualTextError = { fg = palette.red, bg = palette.overlay },
