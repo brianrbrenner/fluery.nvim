@@ -116,7 +116,7 @@ function M.get_highlight_groups()
 			["@function.macro"] = { link = "Macro" },
 			["@function.method"] = { link = "@function" },
 			["@function.method.call"] = { link = "@function" },
-			["@constructor"] = { link = "@function" },
+			["@constructor"] = { fg = "#c9598a" },
 			["@operator"] = { link = "Operator" },
 			-- Keywords
 			["@keyword"] = { link = "Keyword" },
