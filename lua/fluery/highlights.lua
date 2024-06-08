@@ -1,27 +1,28 @@
 local M = {}
 function M.get_highlight_groups()
 	local palette = {
-      bg            = "#020202",
-      surface       = "#1E1E1E",
-      overlay       = "#222425",
-      hilite_lo     = "#2e2d31",
-      hilite_med    = "#3b3a3e",
-      hilite_hi     = "#48474a",
-      muted         = "#afadab",
-      subtle        = "#d0cdc9",
-      tx            = "#fefcf4",
-      green         = "#00A000",
-      yellow        = "#ffff00",
-      yellow_brown  = "#edb211",
-      pale_orange   = "#f0c674",
-      orange        = "#ffa900",
-      light_red     = "#de451f",
-      less_pale_red = "#bd2d2d",
-      pale_red      = "#dc7575",
-      red           = "#FF0000",
-      pale_blue     = "#2895c7",
-      brown         = "#63523d"
-  }
+		bg = "#020202",
+		surface = "#1E1E1E",
+		overlay = "#222425",
+		hilite_lo = "#2e2d31",
+		hilite_med = "#3b3a3e",
+		hilite_hi = "#48474a",
+		muted = "#afadab",
+		subtle = "#d0cdc9",
+		tx = "#fefcf4",
+		green = "#00A000",
+		yellow = "#ffff00",
+		yellow_brown = "#edb211",
+		pale_orange = "#f0c674",
+		orange = "#ffa900",
+		light_red = "#de451f",
+		less_pale_red = "#bd2d2d",
+		pale_red = "#dc7575",
+		red = "#FF0000",
+		pale_blue = "#2895c7",
+    light_brown = "#b99468",
+		brown = "#63523d",
+	}
 
 	local highlight_groups = {
 		base = {
@@ -37,7 +38,7 @@ function M.get_highlight_groups()
 			Boolean = { link = "Constant" },
 			Float = { link = "Constant" },
 
-			Identifier = {},
+			Identifier = { fg = palette.light_brown },
 			Function = { fg = palette.light_red },
 
 			Statement = { fg = palette.pale_orange },
@@ -49,7 +50,7 @@ function M.get_highlight_groups()
 			Exception = { link = "Statement" },
 
 			PreProc = { fg = palette.pale_red },
-			Include = { link = "PreProc" },
+			Include = { link = palette.orange },
 			Define = { link = "PreProc" },
 			Macro = { fg = palette.pale_blue },
 			PreCondit = { link = "PreProc" },
