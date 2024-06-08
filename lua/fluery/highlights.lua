@@ -165,6 +165,11 @@ function M.get_highlight_groups()
 			["@conceal.markdown"] = { fg = palette.subtle },
 			["@conceal.markdown_inline"] = { fg = palette.subtle },
 			--- Semantic
+      -- cpp
+      ["@keyword.type.cpp"] = { fg = "#2895c7" },
+      -- zig
+      ["@keyword.modifier.zig"] = { fg = "#2895c7" },
+
 			["@lsp.type.enum"] = { link = "@type" },
 			["@lsp.type.interface"] = { link = "@interface" },
 			["@lsp.type.keyword"] = { link = "@keyword" },
@@ -181,10 +186,6 @@ function M.get_highlight_groups()
 			["@lsp.typemod.variable.constant"] = { link = "@constant" },
 			["@lsp.typemod.variable.defaultLibrary"] = { link = "@variable.builtin" },
 			["@lsp.typemod.variable.injected"] = { link = "@variable" },
-      -- cpp
-      ["@keyword.type.cpp"] = { fg = "#2895c7" },
-      -- zig
-      ["@keyword.modifier.zig"] = { fg = "#2895c7" },
 		},
 		ui = {
 			-- See :help highlight-groups
