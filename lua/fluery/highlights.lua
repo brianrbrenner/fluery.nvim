@@ -22,7 +22,7 @@ function M.get_highlight_groups()
 		pale_red = "#dc7575",
 		red = "#FF0000",
 		pale_blue = "#2895c7",
-    light_brown = "#baa68d",
+    light_brown = "##d4c2ae",
 		brown = "#63523d",
 	}
 
