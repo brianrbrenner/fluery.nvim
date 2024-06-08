@@ -84,6 +84,7 @@ function M.get_highlight_groups()
 			["@variable"] = { link = "Identifier" },
 			["@variable.builtin"] = { link = "Macro" },
 			["@variable.parameter"] = { link = "@variable" },
+			["@variable.parameter.builtin"] = { fg = "#c9598a" },
 			["@variable.member"] = { link = "@variable" },
 			["@constant"] = { link = "Constant" },
 			["@constant.builtin"] = { fg = palette.dark_green },
@@ -182,6 +183,8 @@ function M.get_highlight_groups()
 			["@lsp.typemod.variable.injected"] = { link = "@variable" },
       -- cpp
       ["@keyword.type.cpp"] = { fg = "#2895c7" },
+      -- zig
+      ["@keyword.modifier.zig"] = { fg = "#2895c7" },
 		},
 		ui = {
 			-- See :help highlight-groups
