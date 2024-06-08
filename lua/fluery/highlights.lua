@@ -22,7 +22,7 @@ function M.get_highlight_groups()
 		pale_red = "#dc7575",
 		red = "#FF0000",
 		pale_blue = "#2895c7",
-    light_brown = "#b99468",
+    light_brown = "##baa68d",
 		brown = "#63523d",
 	}
 
@@ -40,7 +40,7 @@ function M.get_highlight_groups()
 			Boolean = { link = "String" },
 			Float = { link = "String" },
 
-			Identifier = { fg = "#de8150" },
+			Identifier = { fg = palette.light_brown },
 			Function = { fg = palette.light_red },
 
 			Statement = { fg = palette.pale_orange },
