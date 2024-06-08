@@ -9,6 +9,7 @@ function M.get_highlight_groups()
 		hilite_hi = "#48474a",
 		muted = "#afadab",
 		subtle = "#d0cdc9",
+    comment = "#666666",
 		tx = "#fefcf4",
 		green = "#00A000",
 		yellow = "#ffff00",
@@ -26,8 +27,8 @@ function M.get_highlight_groups()
 
 	local highlight_groups = {
 		base = {
-			Normal = { fg = palette.tx, bg = palette.bg },
-			Comment = { fg = palette.muted },
+			Normal = { fg = palette.light_brown, bg = palette.bg },
+			Comment = { fg = palette.comment },
 		},
 		syntax_groups = {
 			-- See :help group-name
