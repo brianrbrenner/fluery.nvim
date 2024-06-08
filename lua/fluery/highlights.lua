@@ -180,6 +180,8 @@ function M.get_highlight_groups()
 			["@lsp.typemod.variable.constant"] = { link = "@constant" },
 			["@lsp.typemod.variable.defaultLibrary"] = { link = "@variable.builtin" },
 			["@lsp.typemod.variable.injected"] = { link = "@variable" },
+      -- cpp
+      ["@keyword.type.cpp"] = { link = "@lsp.type.modifier" },
 		},
 		ui = {
 			-- See :help highlight-groups
