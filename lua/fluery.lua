@@ -11,7 +11,8 @@ local function set_hightlights()
 	end
 end
 
-function M.colorscheme()
+function M.colorscheme(variant)
+  config.extend_options({ variant = variant })
 	vim.opt_termguicolors = true
 	if vim.g.colors_name then
 		vim.cmd("hi clear")
