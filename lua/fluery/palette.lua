@@ -1,4 +1,5 @@
-	local palette = {
+local palette = {
+	default = {
 		bg = "#020202",
 		surface = "#1E1E1E",
 		overlay = "#222425",
@@ -7,10 +8,10 @@
 		hilite_hi = "#48474a",
 		muted = "#afadab",
 		subtle = "#d0cdc9",
-    comment = "#666666",
+		comment = "#666666",
 		tx = "#fefcf4",
 		green = "#00A000",
-    dark_green = "#6eb525",
+		dark_green = "#6eb525",
 		yellow = "#ffff00",
 		yellow_brown = "#edb211",
 		pale_orange = "#f0c674",
@@ -20,8 +21,9 @@
 		pale_red = "#dc7575",
 		red = "#FF0000",
 		pale_blue = "#2895c7",
-    light_brown = "#d4c2ae",
+		light_brown = "#d4c2ae",
 		brown = "#63523d",
-	}
+	},
+}
 
-  return palette
+return palette

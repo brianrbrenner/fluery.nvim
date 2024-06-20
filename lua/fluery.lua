@@ -1,4 +1,5 @@
 local M = {}
+local config = require("fluery.config")
 
 local function set_hightlights()
 	local highlight_groups = require("fluery.highlights").get_highlight_groups()
@@ -19,6 +20,10 @@ function M.colorscheme()
 	vim.g.colors_name = "fluery"
 
 	set_hightlights()
+end
+
+function M.setup(options)
+  config.extend_options(options or {})
 end
 
 return M
