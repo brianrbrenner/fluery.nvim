@@ -1,6 +1,6 @@
 local M = {}
 function M.get_highlight_groups()
-  local palette = require("fluery.palette")
+  local palette = require("fluery.palette.default")
 	local highlight_groups = {
 		base = {
 			Normal = { fg = palette.muted, bg = palette.bg },
