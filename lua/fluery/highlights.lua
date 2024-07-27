@@ -6,53 +6,53 @@ function M.get_highlight_groups()
 			Normal = { fg = palette.muted, bg = palette.bg },
 			Comment = { fg = palette.comment },
 		},
-		-- syntax_groups = {
-		-- 	-- See :help group-name
-		-- 	Constant = { fg = palette.dark_green },
-		-- 	String = { fg = palette.orange },
-		-- 	Character = { link = "Constant" },
-		-- 	Number = { link = "String" },
-		-- 	Boolean = { link = "String" },
-		-- 	Float = { link = "String" },
-		--
-		-- 	Identifier = { fg = palette.light_brown },
-		-- 	Function = { fg = palette.light_red },
-		--
-		-- 	Statement = { fg = palette.pale_orange },
-		-- 	Conditional = { link = "Statement" },
-		-- 	Repeat = { link = "Statement" },
-		-- 	Label = { link = "Statement" },
-		-- 	Operator = { fg = palette.less_pale_red },
-		-- 	Keyword = { link = "Statement" },
-		-- 	Exception = { link = "Statement" },
-		--
-		-- 	PreProc = { fg = palette.pale_red },
-		-- 	Include = { link = palette.orange },
-		-- 	Define = { link = "PreProc" },
-		-- 	Macro = { fg = palette.pale_blue },
-		-- 	PreCondit = { link = "PreProc" },
-		--
-		-- 	Type = { fg = palette.yellow_brown },
-		-- 	StorageClass = { link = "Type" },
-		-- 	Structure = { link = "Type" },
-		-- 	Typedef = { link = "Statement" },
-		--
-		-- 	Special = { fg = palette.yellow },
-		-- 	SpecialChar = { fg = "#4E5E46" },
-		-- 	Tag = { link = "Special" },
-		-- 	Delimiter = { fg = palette.muted },
-		-- 	SpecialComment = { link = "Special" },
-		-- 	Debug = { fg = palette.orange },
-		--
-		-- 	Underlined = { fg = palette.brown, underline = true },
-		-- 	Ignore = { fg = palette.muted },
-		-- 	Error = { fg = palette.red, bold = true },
-		-- 	Todo = { fg = palette.yellow },
-		--
-		-- 	Added = { fg = palette.green },
-		-- 	Changed = { fg = palette.yellow },
-		-- 	Removed = { fg = palette.red },
-		-- },
+		syntax_groups = {
+			-- See :help group-name
+			Constant = { fg = palette.dark_green },
+			String = { fg = palette.orange },
+			Character = { link = "Constant" },
+			Number = { link = "String" },
+			Boolean = { link = "String" },
+			Float = { link = "String" },
+
+			Identifier = { fg = palette.light_brown },
+			Function = { fg = palette.light_red },
+
+			Statement = { fg = palette.pale_orange },
+			Conditional = { link = "Statement" },
+			Repeat = { link = "Statement" },
+			Label = { link = "Statement" },
+			Operator = { fg = palette.less_pale_red },
+			Keyword = { link = "Statement" },
+			Exception = { link = "Statement" },
+
+			-- PreProc = { fg = palette.pale_red },
+			-- Include = { link = palette.orange },
+			-- Define = { link = "PreProc" },
+			-- Macro = { fg = palette.pale_blue },
+			-- PreCondit = { link = "PreProc" },
+			--
+			-- Type = { fg = palette.yellow_brown },
+			-- StorageClass = { link = "Type" },
+			-- Structure = { link = "Type" },
+			-- Typedef = { link = "Statement" },
+			--
+			-- Special = { fg = palette.yellow },
+			-- SpecialChar = { fg = "#4E5E46" },
+			-- Tag = { link = "Special" },
+			-- Delimiter = { fg = palette.muted },
+			-- SpecialComment = { link = "Special" },
+			-- Debug = { fg = palette.orange },
+			--
+			-- Underlined = { fg = palette.brown, underline = true },
+			-- Ignore = { fg = palette.muted },
+			-- Error = { fg = palette.red, bold = true },
+			-- Todo = { fg = palette.yellow },
+			--
+			-- Added = { fg = palette.green },
+			-- Changed = { fg = palette.yellow },
+			-- Removed = { fg = palette.red },
+		},
 		-- See https://github.com/nvim-treesitter/nvim-treesitter/blob/master/CONTRIBUTING.md
 		tree_sitter = {
 			-- Identifiers
