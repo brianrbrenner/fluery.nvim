@@ -7,7 +7,7 @@ function M.get_highlight_groups()
 			Comment = { fg = palette.comment },
 		},
 		syntax_groups = {
-			See :help group-name
+			-- See :help group-name
 			Constant = { fg = palette.dark_green },
 			String = { fg = palette.orange },
 			Character = { link = "Constant" },
