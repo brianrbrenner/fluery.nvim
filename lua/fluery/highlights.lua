@@ -259,12 +259,12 @@ function M.get_highlight_groups()
 			diffChanged = { link = "DiffChange" },
 			diffRemoved = { link = "DiffDelete" },
 		},
-		spell = {
-			SpellBad = { sp = palette.red, undercurl = true },
-			SpellCap = { sp = palette.yellow, undercurl = true },
-			SpellLocal = { sp = palette.green, undercurl = true },
-			SpellRare = { sp = palette.cyan, undercurl = true },
-		},
+		-- spell = {
+		-- 	SpellBad = { sp = palette.red, undercurl = true },
+		-- 	SpellCap = { sp = palette.yellow, undercurl = true },
+		-- 	SpellLocal = { sp = palette.green, undercurl = true },
+		-- 	SpellRare = { sp = palette.cyan, undercurl = true },
+		-- },
 		-- telescope = {
 		-- 	TelescopeBorder = { link = "FloatBorder" },
 		-- 	TelescopeTitle = { link = "FloatTitle" },
