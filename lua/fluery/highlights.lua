@@ -265,13 +265,13 @@ function M.get_highlight_groups()
 			SpellLocal = { sp = palette.green, undercurl = true },
 			SpellRare = { sp = palette.cyan, undercurl = true },
 		},
-		telescope = {
-			TelescopeBorder = { link = "FloatBorder" },
-			TelescopeTitle = { link = "FloatTitle" },
-			TelescopeNormal = { link = "NormalFloat" },
-			TelescopePreviewMatch = { link = "IncSearch" },
-			TelescopeMatching = { link = "Search" },
-		},
+		-- telescope = {
+		-- 	TelescopeBorder = { link = "FloatBorder" },
+		-- 	TelescopeTitle = { link = "FloatTitle" },
+		-- 	TelescopeNormal = { link = "NormalFloat" },
+		-- 	TelescopePreviewMatch = { link = "IncSearch" },
+		-- 	TelescopeMatching = { link = "Search" },
+		-- },
 		-- cmp = {
 		-- 	CmpItemAbbr = { fg = palette.subtle },
 		-- 	CmpItemAbbrDeprecated = { fg = palette.subtle, strikethrough = true },
