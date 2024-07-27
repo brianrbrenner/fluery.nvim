@@ -31,11 +31,11 @@ function M.get_highlight_groups()
 			-- Define = { link = "PreProc" },
 			-- Macro = { fg = palette.pale_blue },
 			-- PreCondit = { link = "PreProc" },
-			--
-			-- Type = { fg = palette.yellow_brown },
-			-- StorageClass = { link = "Type" },
-			-- Structure = { link = "Type" },
-			-- Typedef = { link = "Statement" },
+
+			Type = { fg = palette.yellow_brown },
+			StorageClass = { link = "Type" },
+			Structure = { link = "Type" },
+			Typedef = { link = "Statement" },
 
 			Special = { fg = palette.yellow },
 			SpecialChar = { fg = "#4E5E46" },
