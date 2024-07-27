@@ -297,20 +297,20 @@ function M.get_highlight_groups()
 			TelescopePreviewMatch = { link = "IncSearch" },
 			TelescopeMatching = { link = "Search" },
 		},
-		cmp = {
-			CmpItemAbbr = { fg = palette.subtle },
-			CmpItemAbbrDeprecated = { fg = palette.subtle, strikethrough = true },
-			CmpItemAbbrMatch = { fg = palette.tx, bold = true },
-			CmpItemAbbrMatchFuzzy = { fg = palette.tx, bold = true },
-			CmpItemKind = { fg = palette.subtle },
-
-			CmpItemKindClass = { link = "StorageClass" },
-			CmpItemKindFunction = { link = "Function" },
-			CmpItemKindInterface = { link = "Type" },
-			CmpItemKindMethod = { link = "PreProc" },
-			CmpItemKindSnippet = { link = "String" },
-			CmpItemKindVariable = { link = "Identifier" },
-		},
+		-- cmp = {
+		-- 	CmpItemAbbr = { fg = palette.subtle },
+		-- 	CmpItemAbbrDeprecated = { fg = palette.subtle, strikethrough = true },
+		-- 	CmpItemAbbrMatch = { fg = palette.tx, bold = true },
+		-- 	CmpItemAbbrMatchFuzzy = { fg = palette.tx, bold = true },
+		-- 	CmpItemKind = { fg = palette.subtle },
+		--
+		-- 	CmpItemKindClass = { link = "StorageClass" },
+		-- 	CmpItemKindFunction = { link = "Function" },
+		-- 	CmpItemKindInterface = { link = "Type" },
+		-- 	CmpItemKindMethod = { link = "PreProc" },
+		-- 	CmpItemKindSnippet = { link = "String" },
+		-- 	CmpItemKindVariable = { link = "Identifier" },
+		-- },
 	}
 	return highlight_groups
 end
