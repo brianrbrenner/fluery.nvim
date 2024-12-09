@@ -20,7 +20,7 @@ local palette = {
 		less_pale_red = "#bd2d2d",
 		pale_red = "#dc7575",
 		red = "#FF0000",
-		pale_blue = "#365c73",
+		pale_blue = "#2895c7",
 		light_brown = "#d4c2ae",
 		brown = "#63523d",
 	},
