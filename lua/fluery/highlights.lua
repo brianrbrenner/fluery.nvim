@@ -100,6 +100,7 @@ function M.get_highlight_groups()
 			["@keyword.exception"] = { link = "Exception" },
 			["@keyword.directive"] = { link = "PreProc" },
 			["@keyword.directive.define"] = { link = "Define" },
+			["@keyword.import.c"] = { link = "PreProc" },
 			-- Punctuation
 			["@punctuation.delimiter"] = { link = "Delimiter" },
 			["@punctuation.bracket"] = { fg = palette.subtle },
