@@ -27,7 +27,7 @@ function M.get_highlight_groups()
 			Exception = { link = "Statement" },
 
 			PreProc = { fg = palette.pale_red },
-			Include = { fg = palette.orange },
+			Include = { fg = "PreProc" },
 			Define = { link = "PreProc" },
 			Macro = { fg = palette.pale_blue },
 			PreCondit = { link = "PreProc" },
