@@ -109,8 +109,8 @@ function M.get_highlight_groups()
 			["@comment"] = { link = "Comment" },
 			["@comment.error"] = { fg = palette.red },
 			["@comment.warning"] = { fg = palette.orange },
-			["@comment.todo"] = { fg = "palette.red", bold = true },
-			["@comment.note"] = { fg = "palette.green", bold = true },
+			["@comment.todo"] = { fg = palette.red, bold = true },
+			["@comment.note"] = { fg = palette.green, bold = true },
 			-- Markup
 			["@tag"] = { link = "Tag" },
 			["@tag.attribute"] = { link = "@variable.parameter" },
