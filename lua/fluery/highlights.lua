@@ -145,6 +145,7 @@ function M.get_highlight_groups()
 			["@keyword.type.cpp"] = { fg = "#2895c7" },
 			-- zig
 			["@keyword.modifier.zig"] = { fg = "#2895c7" },
+			["@lsp.type.builtin.zig"] = { fg = "#2895c7" },
 
 			["@lsp.type.enum"] = { link = "@type" },
 			["@lsp.type.interface"] = { link = "@interface" },
