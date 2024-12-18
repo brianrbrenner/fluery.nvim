@@ -5,7 +5,7 @@ config.options = {
 }
 
 function config.extend_options(options)
-  config.optons = vim.tbl_deep_extend("force", config.options, {})
+  config.optons = vim.tbl_deep_extend("force", config.options, options)
 end
 
 return config
