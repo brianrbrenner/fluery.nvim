@@ -22,8 +22,8 @@ local palette = {
 		pale_red = "#dc7575",
 		red = "#FF0000",
 		pale_blue = "#2895c7",
-		-- light_brown = "#d4c2ae",
-		light_brown = "#b99468",
+		light_brown = "#d4c2ae",
+		-- light_brown = "#b99468",
 		brown = "#63523d",
 	},
 }
